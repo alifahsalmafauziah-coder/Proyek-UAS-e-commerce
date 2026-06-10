@@ -831,6 +831,10 @@ textarea { resize: vertical; }
   .hero-flower-grid { grid-template-columns: repeat(4,1fr); gap: 0.5rem; }
   .flower-card { font-size: 1.6rem; padding: 0.75rem 0.4rem; }
   .flower-card span { display: none; }
+   .contact-section { padding: 3.5rem 0.8rem; }
+  .contact-form-wrapper { padding: 1rem; }
+  .contact-item { font-size: 0.9rem; }
+}
 }
 /* === TAMBAHAN: Modal Receipt + Fix Mobile === */
 @media (max-width: 680px) { .nav-links { z-index: 1050 !important; } }
