@@ -805,6 +805,22 @@ textarea { resize: vertical; }
   .flower-card { padding: 1rem; font-size: 2rem; }
   /* Products: 2 kolom */
   .products-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+   /* Contact: lebih rapi di HP */
+  .contact-section { padding: 4rem 1rem; }
+  .contact-container { gap: 1.5rem; }
+  .contact-info { text-align: center; }
+  .contact-items { align-items: stretch; }
+  .contact-item {
+    align-items: flex-start;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .contact-item span:last-child {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+  .contact-form-wrapper { padding: 1.25rem; }
   /* Footer: 1 kolom */
   .footer-container { grid-template-columns: 1fr; gap: 1.5rem; }
 }
