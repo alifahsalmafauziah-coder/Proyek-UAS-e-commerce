@@ -781,7 +781,7 @@ textarea { resize: vertical; }
   .footer-container { grid-template-columns: 1fr 1fr; gap: 2rem; }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 767px) {
   /* Hamburger menu mobile */
   .nav-links {
     position: fixed;
